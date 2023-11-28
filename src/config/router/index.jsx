@@ -39,6 +39,10 @@ import TrainImpPpic from '../../pages/subTraining/improvement/TrainImpPpic';
 import TrainImpQc from '../../pages/subTraining/improvement/TrainImpQc';
 import TrainImpScm from '../../pages/subTraining/improvement/TrainImpScm';
 import TrainImpSwot from '../../pages/subTraining/improvement/TrainImpSwot';
+import TrainSdmBuilding from '../../pages/subTraining/sdm/TrainSdmBuilding';
+import TrainSdmEffective from '../../pages/subTraining/sdm/TrainSdmEffective';
+import TrainSdmLeader from '../../pages/subTraining/sdm/TrainSdmLeader';
+import TrainSdmPro from '../../pages/subTraining/sdm/TrainSdmPro';
 
 const Router = () => {
   return (
@@ -83,6 +87,11 @@ const Router = () => {
           <Route path="/training/training-improvement-qc" element={<TrainImpQc />} />
           <Route path="/training/training-improvement-scm" element={<TrainImpScm />} />
           <Route path="/training/training-improvement-swot" element={<TrainImpSwot />} />
+          {/* Training SDM */}
+          <Route path="/training/training-sdm-team-building" element={<TrainSdmBuilding />} />
+          <Route path="/training/training-sdm-effective-supervisory-skill" element={<TrainSdmEffective />} />
+          <Route path="/training/training-sdm-sinergy-building-for-leader" element={<TrainSdmLeader />} />
+          <Route path="/training/training-sdm-problem-solving" element={<TrainSdmPro />} />
           {/* Iso Article */}
           <Route path="/iso14001" element={<Iso14001 />} />
           <Route path="/iso22000" element={<Iso22000 />} />

@@ -279,19 +279,41 @@ const ContentTraining = () => {
         <p>
           <b>TRAINING SDM</b>
           <br />
-          Problem Solving
+          <a href="/training/training-sdm-problem-solving">
+            <button type="button" class="btn btn-light text-center">
+              Problem Solving
+            </button>
+          </a>
           <br />
-          Masa Persiapan Pensiun
+          <button type="button" class="btn btn-light text-center">
+            Masa Persiapan Pensiun
+          </button>
           <br />
-          OutBound - Team Building
+          <a href="/training/training-sdm-team-building">
+            <button type="button" class="btn btn-light text-center">
+              OutBound - Team Building
+            </button>
+          </a>
           <br />
-          Sinergy Building for Leader
+          <a href="/training/training-sdm-sinergy-building-for-leader">
+            <button type="button" class="btn btn-light text-center">
+              Sinergy Building for Leader
+            </button>
+          </a>
           <br />
-          Effective Supervisory Skill
+          <a href="/training/training-sdm-effective-supervisory-skill">
+            <button type="button" class="btn btn-light text-center">
+              Effective Supervisory Skill
+            </button>
+          </a>
           <br />
-          Service Excellent
+          <button type="button" class="btn btn-light text-center">
+            Service Excellent
+          </button>
           <br />
-          Training Need Analysis
+          <button type="button" class="btn btn-light text-center">
+            Training Need Analysis
+          </button>
           <br />
           <br />
         </p>
