@@ -35,6 +35,10 @@ import TrainFoodFssc from '../../pages/subTraining/food/TrainFoodFssc';
 import TrainFoodHaccp from '../../pages/subTraining/food/TrainFoodHaccp';
 import TrainFoodIso from '../../pages/subTraining/food/TrainFoodIso';
 import TrainFoodPersonal from '../../pages/subTraining/food/TrainFoodPersonal';
+import TrainImpPpic from '../../pages/subTraining/improvement/TrainImpPpic';
+import TrainImpQc from '../../pages/subTraining/improvement/TrainImpQc';
+import TrainImpScm from '../../pages/subTraining/improvement/TrainImpScm';
+import TrainImpSwot from '../../pages/subTraining/improvement/TrainImpSwot';
 
 const Router = () => {
   return (
@@ -74,6 +78,11 @@ const Router = () => {
           <Route path="/training/training-food-haccp" element={<TrainFoodHaccp />} />
           <Route path="/training/training-food-iso-22000" element={<TrainFoodIso />} />
           <Route path="/training/training-food-personal-hygiene" element={<TrainFoodPersonal />} />
+          {/* Training Improvement */}
+          <Route path="/training/training-improvement-ppic" element={<TrainImpPpic />} />
+          <Route path="/training/training-improvement-qc" element={<TrainImpQc />} />
+          <Route path="/training/training-improvement-scm" element={<TrainImpScm />} />
+          <Route path="/training/training-improvement-swot" element={<TrainImpSwot />} />
           {/* Iso Article */}
           <Route path="/iso14001" element={<Iso14001 />} />
           <Route path="/iso22000" element={<Iso22000 />} />

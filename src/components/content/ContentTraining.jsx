@@ -236,19 +236,41 @@ const ContentTraining = () => {
           <p>
             <b>TRAINING IMPROVEMENT</b>
             <br />
-            Dasar-dasar QC, SPC & QC 7 Tools
+            <a href="/training/training-improvement-ppic">
+              <button type="button" class="btn btn-light text-center">
+                Dasar-dasar QC, SPC & QC 7 Tools
+              </button>
+            </a>
             <br />
-            SWOT Analysis Training
+            <a href="/training/training-improvement-swot">
+              <button type="button" class="btn btn-light text-center">
+                SWOT Analysis Training
+              </button>
+            </a>
             <br />
-            RCA (Root Cause Analysis)
+            <button type="button" class="btn btn-light text-center">
+              RCA (Root Cause Analysis)
+            </button>
             <br />
-            PPIC (Production Planning & Inventory Control)
+            <a href="/training/training-improvement-ppic">
+              <button type="button" class="btn btn-light text-center">
+                PPIC (Production Planning & Inventory Control)
+              </button>
+            </a>
             <br />
-            SCM (Supply Chain Management)
+            <a href="/training/training-improvement-scm">
+              <button type="button" class="btn btn-light text-center">
+                SCM (Supply Chain Management)
+              </button>
+            </a>
             <br />
-            Purchasing & Vendor Evaluation Training
+            <button type="button" class="btn btn-light text-center">
+              Purchasing & Vendor Evaluation Training
+            </button>
             <br />
-            SEDEX/SMETA
+            <button type="button" class="btn btn-light text-center">
+              SEDEX/SMETA
+            </button>
             <br />
           </p>
         </div>
