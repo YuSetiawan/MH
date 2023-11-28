@@ -134,21 +134,49 @@ const ContentTraining = () => {
         <div className="col-md-6 col-sm-12 mt-3" data-bs-ride="carousel">
           <p>
             <b>TRAINING FOOD SAFETY</b> <br />
-            HACCP (Hazard Critical Control Point)
+            <a href="/training/training-food-haccp">
+              <button type="button" class="btn btn-light text-center">
+                HACCP (Hazard Critical Control Point)
+              </button>
+            </a>
             <br />
-            ISO 22000:2018 (Sistem Manajemen Keamanan Pangan)
+            <a href="/training/training-food-iso-22000">
+              <button type="button" class="btn btn-light text-center">
+                ISO 22000:2018 (Sistem Manajemen Keamanan Pangan)
+              </button>
+            </a>
             <br />
-            FSSC VER 5.1 (Food Safety System Certificate)
+            <a href="/training/training-food-fssc">
+              <button type="button" class="btn btn-light text-center">
+                FSSC VER 5.1 (Food Safety System Certificate)
+              </button>
+            </a>
             <br />
-            BRC ISSUE 9 (Global Standard for Food Manufacturing)
+            <a href="/training/training-food-brc">
+              <button type="button" class="btn btn-light text-center">
+                BRC ISSUE 9 (Global Standard for Food Manufacturing)
+              </button>
+            </a>
             <br />
-            BRC IoP (Global Standard for Food Packaging & Packaging Product)
+            <button type="button" class="btn btn-light text-center">
+              BRC IoP (Global Standard for Food Packaging & Packaging Product)
+            </button>
             <br />
-            FSPCA (Hazard Analysis and Preventive Control for Human Food)
+            <a href="/training/training-food-fspca">
+              <button type="button" class="btn btn-light text-center">
+                FSPCA (Hazard Analysis and Preventive Control for Human Food)
+              </button>
+            </a>
             <br />
-            Personal Hygiene
+            <a href="/training/training-food-personal-hygiene">
+              <button type="button" class="btn btn-light text-center">
+                Personal Hygiene
+              </button>
+            </a>
             <br />
-            Basic Microbiology
+            <button type="button" class="btn btn-light text-center">
+              Basic Microbiology
+            </button>
             <br />
           </p>
         </div>

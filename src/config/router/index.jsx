@@ -29,6 +29,12 @@ import Traink3Klh from '../../pages/subTraining/k3/Traink3Klh';
 import Traink3Limbah from '../../pages/subTraining/k3/Traink3Limbah';
 import Traink3Loto from '../../pages/subTraining/k3/Traink3Loto';
 import Traink3Mecha from '../../pages/subTraining/k3/Traink3Mecha';
+import TrainFoodBrcIssue from '../../pages/subTraining/food/TrainFoodBrcIssue';
+import TrainFoodFspca from '../../pages/subTraining/food/TrainFoodFspca';
+import TrainFoodFssc from '../../pages/subTraining/food/TrainFoodFssc';
+import TrainFoodHaccp from '../../pages/subTraining/food/TrainFoodHaccp';
+import TrainFoodIso from '../../pages/subTraining/food/TrainFoodIso';
+import TrainFoodPersonal from '../../pages/subTraining/food/TrainFoodPersonal';
 
 const Router = () => {
   return (
@@ -44,16 +50,11 @@ const Router = () => {
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/fcca" element={<Fcca />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/iso14001" element={<Iso14001 />} />
-          <Route path="/iso22000" element={<Iso22000 />} />
-          <Route path="/iso27001" element={<Iso27001 />} />
-          <Route path="/iso37001" element={<Iso37001 />} />
-          <Route path="/iso45001" element={<Iso45001 />} />
-          <Route path="/iso9001" element={<Iso9001 />} />
           <Route path="/news" element={<News />} />
           <Route path="/sedexSmeta" element={<SedexSmeta />} />
           <Route path="/sni" element={<Sni />} />
           <Route path="/training" element={<Training />} />
+          {/* Training Iso */}
           <Route path="/training/training-iso-9001" element={<TrainIso9 />} />
           <Route path="/training/training-iso-13485" element={<TrainIso13 />} />
           <Route path="/training/training-iso-14001" element={<TrainIso14 />} />
@@ -61,10 +62,25 @@ const Router = () => {
           <Route path="/training/training-iso-19011" element={<TrainIso19 />} />
           <Route path="/training/training-iso-31000" element={<TrainIso31 />} />
           <Route path="/training/training-iso-45001" element={<TrainIso45 />} />
+          {/* Training K3 */}
           <Route path="/training/training-k3-proper" element={<Traink3Klh />} />
           <Route path="/training/training-k3-limbah" element={<Traink3Limbah />} />
           <Route path="/training/training-k3-loto" element={<Traink3Loto />} />
           <Route path="/training/training-k3-mechanical-safety" element={<Traink3Mecha />} />
+          {/* Training Food Safety */}
+          <Route path="/training/training-food-brc" element={<TrainFoodBrcIssue />} />
+          <Route path="/training/training-food-fspca" element={<TrainFoodFspca />} />
+          <Route path="/training/training-food-fssc" element={<TrainFoodFssc />} />
+          <Route path="/training/training-food-haccp" element={<TrainFoodHaccp />} />
+          <Route path="/training/training-food-iso-22000" element={<TrainFoodIso />} />
+          <Route path="/training/training-food-personal-hygiene" element={<TrainFoodPersonal />} />
+          {/* Iso Article */}
+          <Route path="/iso14001" element={<Iso14001 />} />
+          <Route path="/iso22000" element={<Iso22000 />} />
+          <Route path="/iso27001" element={<Iso27001 />} />
+          <Route path="/iso37001" element={<Iso37001 />} />
+          <Route path="/iso45001" element={<Iso45001 />} />
+          <Route path="/iso9001" element={<Iso9001 />} />
         </Routes>
       </BrowserRouter>
     </div>
