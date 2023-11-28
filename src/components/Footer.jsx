@@ -130,52 +130,57 @@ export default function Footer() {
               <img className="" src={msgIcon} height={60} alt="Wa-icon" />
             </button>
             <ul className="dropdown-menu bg-success">
-              <li className="mx-3">
-                <p>
-                  <b>Whatsapp / Phone</b>
-                  <br />
-                  <a className="text-light fw-bold" aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
-                    +62813 3357 5557
-                  </a>
+              <li className="mt-2 text-center text-light">
+                <p style={{fontSize: 18}}>
+                  <b>Ada yang bisa kami bantu?</b>
                 </p>
               </li>
-              <li>
-                <hr class="dropdown-divider bg-white" />
-              </li>
-              <li className="mx-3">
-                <p>
-                  <b>Whatsapp / Phone</b>
-                  <br />
-                  <a className="text-light fw-bold" aria-label="Chat on WhatsApp" href="https://wa.me/6281259991928">
-                    +62812 5999 1928
-                  </a>
-                </p>
-              </li>
-              <li>
-                <hr class="dropdown-divider bg-white bg-white" />
-              </li>
-              <li className="mx-3">
-                <p>
-                  <b>Office Phone</b>
-                  <br />
-                  <a className="text-light fw-bold" aria-label="Chat on WhatsApp" href="https://wa.me/623199784015">
-                    +623199784015
-                  </a>
-                </p>
-              </li>
-              <li>
-                <hr class="dropdown-divider bg-white" />
-              </li>
-              <li className="mx-3">
-                <p>
-                  <b>Office Email</b>
+              <div className="bg-white m-2 p-2 rounded">
+                <li className="mx-3">
                   <p>
-                    <a className="text-light fw-bold" href="mailto:mhconsulting.indonesia@gmail.com">
-                      mhconsulting.indonesia@gmail.com
+                    <b>Whatsapp / Phone</b>
+                    <br />
+                    <a className="text-success fw-bold" aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+                      +62813 3357 5557
                     </a>
                   </p>
-                </p>
-              </li>
+                </li>
+                <li>
+                  <hr class="dropdown-divider bg-white" />
+                </li>
+                <li className="mx-3">
+                  <p>
+                    <b>Whatsapp / Phone</b>
+                    <br />
+                    <a className="text-success fw-bold" aria-label="Chat on WhatsApp" href="https://wa.me/6281259991928">
+                      +62812 5999 1928
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <hr class="dropdown-divider bg-white bg-white" />
+                </li>
+                <li className="mx-3">
+                  <p>
+                    <b>Office Phone</b>
+                    <br />
+                    <b className="text-primary">03199784015</b>
+                  </p>
+                </li>
+                <li>
+                  <hr class="dropdown-divider bg-white" />
+                </li>
+                <li className="mx-3">
+                  <p>
+                    <b>Office Email</b>
+                    <p>
+                      <a className="text-primary fw-bold" href="mailto:mhconsulting.indonesia@gmail.com">
+                        mhconsulting.indonesia@gmail.com
+                      </a>
+                    </p>
+                  </p>
+                </li>
+              </div>
             </ul>
           </div>
         </div>

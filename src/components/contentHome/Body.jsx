@@ -197,6 +197,11 @@ const Body = () => {
         </div>
       </article>
       {/* Galerry Training */}
+      <article className="m-5">
+        <h1 id="textHome" className="text-center mb-5 fw-bolder">
+          PROYEK KAMI
+        </h1>
+      </article>
       <Carousell />
       {/* Partner */}
       <article className="m-5">

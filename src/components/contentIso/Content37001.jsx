@@ -5,7 +5,7 @@ const Content37001 = () => {
   return (
     <article className="m-5">
       <h2 className="mb-3">ISO 37001</h2>
-      <div className="text-center">
+      <div className="text-center mb-3">
         <img src={suap} alt="quality" className="col-8" />
       </div>
       <p>
@@ -28,6 +28,7 @@ const Content37001 = () => {
         <br />
         SNI ISO 37001:2016 membahas hal-hal sebagai berikut:
         <b>
+          <br />
           Penyuapan di sektor publik, swasta, dan nirlaba;
           <br />
           Penyuapan oleh organisasi;
@@ -43,8 +44,9 @@ const Content37001 = () => {
           Penyuapan kepada rekan bisnis organisasi dalam kaitan dengan kegiatan organisasi;
           <br />
           Penyuapan langsung dan tidak langsung (misalnya suap yang ditawarkan atau diterima melalui atau oleh pihak ketiga).
-          <br />
         </b>
+        <br />
+        <br />
         SNI ISO 37001:2016 membantu organisasi mengendalikan praktek penyuapan dengan menyediakan sejumlah langkah penting diantaranya penetapan kebijakan anti-penyuapan, penunjukan petugas yang berkewenangan untuk mengawasi kepatuhan
         terhadap praktik anti-penyuapan, pembinaan dan pelatihan anggota organisasi, penerapan manajemen resiko pada proyek dan kegiatan organisasi, pengendalian finansial dan komersial, dan pelembagaan laporan prosedur investigasi. Dalam
         penerapan manajemen anti-suap, kepemimpinan dan masukan dari manajemen puncak adalah kewajiban. Manajemen puncak dianjurkan aktif mencari dan mempertimbangkan rekomendasi berbagai inisiatif anti-penyuapan yang mempromosikan atau
@@ -57,7 +59,7 @@ const Content37001 = () => {
         yang akan menerapkan SNI ISO 37001.
         <br />
         <br />
-        <b>sumber : kominfo.go.id</b>
+        <b>Sumber : kominfo.go.id</b>
       </p>
     </article>
   );

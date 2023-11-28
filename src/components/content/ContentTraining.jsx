@@ -15,14 +15,15 @@ import Training12 from '../../assets/image/training-12.jpg';
 const ContentTraining = () => {
   return (
     <article className="container my-3">
-      <h2>Training</h2>
+      <h2>Training List </h2>
       <div className="row">
         <div className="col-md-6 col-sm-12 mt-3">
-          <h5>
-            MH TRAINING adalah provider training dibawah naungan PT Mutual Harmony Sukses Indonesia atau lebih dikenal dengan MH Consulting yang bergerak dibidang Training & Consulting. MH Consulting lebih dulu malang melintang dibidang
-            konsultansi sistem manajemen dan membuka ruang dibidang pengembangan sdm berupa training. Tahun 2010 kami telah mengembangkan dan memberikan pelayanan training kepada dinas-dinas pemerintah berupa pelatihan komunikasi pada
-            petugas penyuluh pajak daerah. Dengan komitmen memberikan manfaat dan berbagi ilmu dan pengetahuan dengan metode pembelajaran standart dari kami.
-          </h5>
+          <p style={{fontSize: 18}}>
+            <b>MH TRAINING </b>
+            adalah provider training dibawah naungan PT Mutual Harmony Sukses Indonesia atau lebih dikenal dengan MH Consulting yang bergerak dibidang Training & Consulting. MH Consulting lebih dulu malang melintang dibidang konsultansi
+            sistem manajemen dan membuka ruang dibidang pengembangan sdm berupa training. Tahun 2010 kami telah mengembangkan dan memberikan pelayanan training kepada dinas-dinas pemerintah berupa pelatihan komunikasi pada petugas penyuluh
+            pajak daerah. Dengan komitmen memberikan manfaat dan berbagi ilmu dan pengetahuan dengan metode pembelajaran standart dari kami.
+          </p>
         </div>
         <div id="carouselExampleInterval" className="carousel slide col-md-6 col-sm-12 mt-3" data-bs-ride="carousel">
           <div className="carousel-inner">
@@ -78,19 +79,53 @@ const ContentTraining = () => {
           <p>
             <b>TRAINING ISO</b>
             <br />
-            ISO 9001:2015 (Sistem Manajemen Mutu) <br />
-            ISO 13501:2015 (Sistem Manajemen Lingkungan) <br />
-            ISO 45001:2018 (Sistem Manajemen Kesehatan & Keselamatan Kerja)
+            <a href="/training/training-iso-9001">
+              <button type="button" class="btn btn-light text-center">
+                ISO 9001:2015 (Sistem Manajemen Mutu)
+              </button>
+            </a>
             <br />
-            ISO 37001:2016 (Sistem Manajemen Anti Suap)
+            <a href="/training/training-iso-14001">
+              <button type="button" class="btn btn-light text-center">
+                ISO 14001:2015 (Sistem Manajemen Lingkungan)
+              </button>
+            </a>
             <br />
-            ISO 17025:2017 (Sistem Manajemen Mutu Laboratorium)
+            <a href="/training/training-iso-45001">
+              <button type="button" class="btn btn-light text-center">
+                ISO 45001:2018 (Sistem Manajemen Kesehatan & Keselamatan Kerja)
+              </button>
+            </a>
             <br />
-            ISO 13485:2016 (Sistem Manajemen Mutu Alat Kesehatan)
+            <a href="/iso37001">
+              <button type="button" class="btn btn-light text-center">
+                ISO 37001:2016 (Sistem Manajemen Anti Suap)
+              </button>
+            </a>
             <br />
-            ISO 31000:2018 (Sistem Manajemen Resiko)
+            <a href="/training/training-iso-17025">
+              <button type="button" class="btn btn-light text-center">
+                ISO 17025:2017 (Sistem Manajemen Mutu Laboratorium)
+              </button>
+            </a>
             <br />
-            Internal Audit Based on ISO 19011:2018
+            <a href="/training/training-iso-13485">
+              <button type="button" class="btn btn-light text-center">
+                ISO 13485:2016 (Sistem Manajemen Mutu Alat Kesehatan)
+              </button>
+            </a>
+            <br />
+            <a href="/training/training-iso-31000">
+              <button type="button" class="btn btn-light text-center">
+                ISO 31000:2018 (Sistem Manajemen Resiko)
+              </button>
+            </a>
+            <br />
+            <a href="/training/training-iso-19011">
+              <button type="button" class="btn btn-light text-center">
+                Internal Audit Based on ISO 19011:2018
+              </button>
+            </a>
             <br />
           </p>
         </div>

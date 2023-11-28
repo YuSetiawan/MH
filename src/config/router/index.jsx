@@ -18,6 +18,13 @@ import Sni from '../../pages/Sni';
 import Training from '../../pages/Training';
 import Artikel1 from '../../pages/subArtikel/Artikel1';
 import Artikel2 from '../../pages/subArtikel/Artikel2';
+import TrainIso9 from '../../pages/subTraining/TrainIso9';
+import TrainIso13 from '../../pages/subTraining/TrainIso13';
+import TrainIso14 from '../../pages/subTraining/TrainIso14';
+import TrainIso17 from '../../pages/subTraining/TrainIso17';
+import TrainIso19 from '../../pages/subTraining/TrainIso19';
+import TrainIso31 from '../../pages/subTraining/TrainIso31';
+import TrainIso45 from '../../pages/subTraining/TrainIso45';
 
 const Router = () => {
   return (
@@ -43,6 +50,13 @@ const Router = () => {
           <Route path="/sedexSmeta" element={<SedexSmeta />} />
           <Route path="/sni" element={<Sni />} />
           <Route path="/training" element={<Training />} />
+          <Route path="/training/training-iso-9001" element={<TrainIso9 />} />
+          <Route path="/training/training-iso-13485" element={<TrainIso13 />} />
+          <Route path="/training/training-iso-14001" element={<TrainIso14 />} />
+          <Route path="/training/training-iso-17025" element={<TrainIso17 />} />
+          <Route path="/training/training-iso-19011" element={<TrainIso19 />} />
+          <Route path="/training/training-iso-31000" element={<TrainIso31 />} />
+          <Route path="/training/training-iso-45001" element={<TrainIso45 />} />
         </Routes>
       </BrowserRouter>
     </div>

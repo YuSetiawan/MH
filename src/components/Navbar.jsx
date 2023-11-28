@@ -16,8 +16,8 @@ const Navbar = () => {
         `}
       </style>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid mx-5">
-          <a className="navbar-brand" onClick={() => navigate('/home')} href="home">
+        <div className="container-fluid text-center">
+          <a className="navbar-brand col-2" onClick={() => navigate('/home')} href="home">
             <img src={Logo} height={60} alt="company-logo" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
