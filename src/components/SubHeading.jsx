@@ -10,7 +10,7 @@ const SubHeading = ({children}) => {
           }
         `}
       </style>
-      <div className="mx-4">
+      <div className="m-4">
         <div id="subhead" className="border border-secondary rounded">
           <p className="m-3 text-light">{children}</p>
         </div>
