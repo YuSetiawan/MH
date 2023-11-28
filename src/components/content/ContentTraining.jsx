@@ -25,6 +25,7 @@ const ContentTraining = () => {
             pajak daerah. Dengan komitmen memberikan manfaat dan berbagi ilmu dan pengetahuan dengan metode pembelajaran standart dari kami.
           </p>
         </div>
+        {/* Carousell */}
         <div id="carouselExampleInterval" className="carousel slide col-md-6 col-sm-12 mt-3" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval={2500}>
@@ -73,6 +74,7 @@ const ContentTraining = () => {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
+        {/* Carousell End*/}
       </div>
       <div className="row my-3">
         <div className="col-md-6 col-sm-12 mt-3" data-bs-ride="carousel">
@@ -156,33 +158,49 @@ const ContentTraining = () => {
           <p>
             <b>TRAINING K3 & LINGKUNGAN</b>
             <br />
-            Training Lock Out Tag Out (LOTO)
+            <a href="/training/training-k3-loto">
+              <button type="button" class="btn btn-light text-center">
+                Training Lock Out Tag Out (LOTO)
+              </button>
+            </a>
             <br />
-            Mechanical Safety
+            <a href="/training/training-k3-mechanical-safety">
+              <button type="button" class="btn btn-light text-center">
+                Mechanical Safety
+              </button>
+            </a>
             <br />
-            Penanganan Limbah B3
+            <a href="/training/training-k3-limbah">
+              <button type="button" class="btn btn-light text-center">
+                Penanganan Limbah B3
+              </button>
+            </a>
             <br />
-            Proper KLH
+            <a href="/training/training-k3-proper">
+              <button type="button" class="btn btn-light text-center">
+                Proper KLH
+              </button>
+            </a>
             <br />
-            Sertifikasi Ahli K3
+            <b>Sertifikasi Ahli K3</b>
             <br />
-            Ahli K3 Umum
+            - Ahli K3 Umum
             <br />
-            Ahli K3 Listrik
+            - Ahli K3 Listrik
             <br />
-            Sertifikasi Operator
+            <b>Sertifikasi Operator</b>
             <br />
-            Operator Forklift
+            - Operator Forklift
             <br />
-            Operator Crane
+            - Operator Crane
             <br />
-            Operator Boiler
+            - Operator Boiler
             <br />
-            Operator Genset
+            - Operator Genset
             <br />
-            Petugas Pemadam Kebakaran
+            - Petugas Pemadam Kebakaran
             <br />
-            Petugas P3K
+            - Petugas P3K
             <br />
           </p>
         </div>
@@ -224,6 +242,7 @@ const ContentTraining = () => {
           Service Excellent
           <br />
           Training Need Analysis
+          <br />
           <br />
         </p>
       </div>

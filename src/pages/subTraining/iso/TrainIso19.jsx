@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-import SubHeading from '../../components/SubHeading';
-import ContIso19 from '../../components/contentTraining/ContIso19';
+import Navbar from '../../../components/Navbar';
+import Footer from '../../../components/Footer';
+import SubHeading from '../../../components/SubHeading';
+import ContIso19 from '../../../components/contentTraining/iso/ContIso19';
 
 const TrainIso19 = () => {
   return (

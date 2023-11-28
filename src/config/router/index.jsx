@@ -18,13 +18,17 @@ import Sni from '../../pages/Sni';
 import Training from '../../pages/Training';
 import Artikel1 from '../../pages/subArtikel/Artikel1';
 import Artikel2 from '../../pages/subArtikel/Artikel2';
-import TrainIso9 from '../../pages/subTraining/TrainIso9';
-import TrainIso13 from '../../pages/subTraining/TrainIso13';
-import TrainIso14 from '../../pages/subTraining/TrainIso14';
-import TrainIso17 from '../../pages/subTraining/TrainIso17';
-import TrainIso19 from '../../pages/subTraining/TrainIso19';
-import TrainIso31 from '../../pages/subTraining/TrainIso31';
-import TrainIso45 from '../../pages/subTraining/TrainIso45';
+import TrainIso9 from '../../pages/subTraining/iso/TrainIso9';
+import TrainIso13 from '../../pages/subTraining/iso/TrainIso13';
+import TrainIso14 from '../../pages/subTraining/iso/TrainIso14';
+import TrainIso17 from '../../pages/subTraining/iso/TrainIso17';
+import TrainIso19 from '../../pages/subTraining/iso/TrainIso19';
+import TrainIso31 from '../../pages/subTraining/iso/TrainIso31';
+import TrainIso45 from '../../pages/subTraining/iso/TrainIso45';
+import Traink3Klh from '../../pages/subTraining/k3/Traink3Klh';
+import Traink3Limbah from '../../pages/subTraining/k3/Traink3Limbah';
+import Traink3Loto from '../../pages/subTraining/k3/Traink3Loto';
+import Traink3Mecha from '../../pages/subTraining/k3/Traink3Mecha';
 
 const Router = () => {
   return (
@@ -57,6 +61,10 @@ const Router = () => {
           <Route path="/training/training-iso-19011" element={<TrainIso19 />} />
           <Route path="/training/training-iso-31000" element={<TrainIso31 />} />
           <Route path="/training/training-iso-45001" element={<TrainIso45 />} />
+          <Route path="/training/training-k3-proper" element={<Traink3Klh />} />
+          <Route path="/training/training-k3-limbah" element={<Traink3Limbah />} />
+          <Route path="/training/training-k3-loto" element={<Traink3Loto />} />
+          <Route path="/training/training-k3-mechanical-safety" element={<Traink3Mecha />} />
         </Routes>
       </BrowserRouter>
     </div>
