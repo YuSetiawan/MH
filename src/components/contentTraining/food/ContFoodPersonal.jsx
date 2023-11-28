@@ -3,7 +3,7 @@ import React from 'react';
 const ContFoodPersonal = () => {
   return (
     <article className="m-5">
-      <h2 className="mb-3">BRC Issue 9 (British Retail Consortium)</h2>
+      <h2 className="mb-3">Training Personal Hygiene</h2>
       <p>
         Sudah menjadi kewajiban dan tanggung jawab bagi industri makanan dan minuman untuk menerapkan standar sistem keamanan demi menjamin bahwa produk yang dihasilkan telah aman untuk dikonsumsi. Sebagai konsumen, tentunya hal ini
         merupakan isu yang paling mendasar dalam menentukan produk yang akan mereka konsumsi. Ditambah lagi di era digital dimana konsumen sudah lebih cerdas dalam menggunakan produk.
