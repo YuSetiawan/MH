@@ -12,7 +12,9 @@ const SubHeading = ({children}) => {
       </style>
       <div className="m-4">
         <div id="subhead" className="border border-secondary rounded">
-          <p className="m-3 text-light">{children}</p>
+          <h1 style={{fontSize: 17}} className="m-3 text-light">
+            {children}
+          </h1>
         </div>
       </div>
     </>

@@ -158,9 +158,11 @@ const ContentTraining = () => {
               </button>
             </a>
             <br />
-            <button type="button" class="btn btn-light text-center">
-              BRC IoP (Global Standard for Food Packaging & Packaging Product)
-            </button>
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+              <button type="button" class="btn btn-light text-center">
+                BRC IoP (Global Standard for Food Packaging & Packaging Product)
+              </button>
+            </a>
             <br />
             <a href="/training/training-food-fspca">
               <button type="button" class="btn btn-light text-center">
@@ -174,9 +176,11 @@ const ContentTraining = () => {
               </button>
             </a>
             <br />
-            <button type="button" class="btn btn-light text-center">
-              Basic Microbiology
-            </button>
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+              <button type="button" class="btn btn-light text-center">
+                Basic Microbiology
+              </button>
+            </a>
             <br />
           </p>
         </div>
@@ -248,9 +252,11 @@ const ContentTraining = () => {
               </button>
             </a>
             <br />
-            <button type="button" class="btn btn-light text-center">
-              RCA (Root Cause Analysis)
-            </button>
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+              <button type="button" class="btn btn-light text-center">
+                RCA (Root Cause Analysis)
+              </button>
+            </a>
             <br />
             <a href="/training/training-improvement-ppic">
               <button type="button" class="btn btn-light text-center">
@@ -264,13 +270,17 @@ const ContentTraining = () => {
               </button>
             </a>
             <br />
-            <button type="button" class="btn btn-light text-center">
-              Purchasing & Vendor Evaluation Training
-            </button>
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+              <button type="button" class="btn btn-light text-center">
+                Purchasing & Vendor Evaluation Training
+              </button>
+            </a>
             <br />
-            <button type="button" class="btn btn-light text-center">
-              SEDEX/SMETA
-            </button>
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+              <button type="button" class="btn btn-light text-center">
+                SEDEX/SMETA
+              </button>
+            </a>
             <br />
           </p>
         </div>
@@ -285,9 +295,11 @@ const ContentTraining = () => {
             </button>
           </a>
           <br />
-          <button type="button" class="btn btn-light text-center">
-            Masa Persiapan Pensiun
-          </button>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+            <button type="button" class="btn btn-light text-center">
+              Masa Persiapan Pensiun
+            </button>
+          </a>
           <br />
           <a href="/training/training-sdm-team-building">
             <button type="button" class="btn btn-light text-center">
@@ -307,13 +319,17 @@ const ContentTraining = () => {
             </button>
           </a>
           <br />
-          <button type="button" class="btn btn-light text-center">
-            Service Excellent
-          </button>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+            <button type="button" class="btn btn-light text-center">
+              Service Excellent
+            </button>
+          </a>
           <br />
-          <button type="button" class="btn btn-light text-center">
-            Training Need Analysis
-          </button>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/6281333575557">
+            <button type="button" class="btn btn-light text-center">
+              Training Need Analysis
+            </button>
+          </a>
           <br />
           <br />
         </p>

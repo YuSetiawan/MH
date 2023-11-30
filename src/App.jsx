@@ -1,9 +1,12 @@
+import {HelmetProvider} from 'react-helmet-async';
 import Router from './config/router';
 
 function App() {
   return (
     <>
-      <Router />
+      <HelmetProvider>
+        <Router />
+      </HelmetProvider>
     </>
   );
 }
