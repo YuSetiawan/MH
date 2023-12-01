@@ -12,7 +12,7 @@ const Home = () => {
         title={'Mutual Harmony Consulting'}
         content={'Konsultasikan pelatihan ISO perusahaan anda dengan MH Consulting. Mutual Harmony Consulting berdiri pada tahun 2010 dilatar belakangi akan pentingnya dan bernilainya peranan sumber daya manusia.'}
         link={'/home'}
-        keyword={'iso, konsultasi iso, pelatihan iso, mh consulting'}
+        keyword={'pelatihan iso surabaya, sertifikasi surabaya, iso surabaya, sertifikasi iso, sertifikasi iso, iso, konsultasi iso, pelatihan iso, mh consulting'}
       />
 
       <div>

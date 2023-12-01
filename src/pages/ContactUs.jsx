@@ -10,9 +10,11 @@ const ContactUs = () => {
     <>
       <HelmetPage
         title={'Contact Information of MH Consulting'}
-        content={'Informasi lebih lanjut bisa anda dapatkan dengan menghubungi kontak informasi pada laman ini.'}
-        link={'/home'}
-        keyword={'contact us, iso, konsultasi iso, pelatihan iso, kontak informasi,'}
+        content={
+          'Informasi lebih lanjut bisa anda dapatkan dengan menghubungi kontak informasi pada laman ini. Terdapat beragam informasi kontak MH Consulting pada laman ini berupa email kantor, nomor telepon kantor, dan nomor whatsapp marketing.'
+        }
+        link={'/contactUs'}
+        keyword={'contact us, kontak pelatihan iso, informasi pelatihan iso, pelatihan iso surabaya, iso, konsultasi iso, pelatihan iso, kontak informasi,'}
       />
 
       <div>

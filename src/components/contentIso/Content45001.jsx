@@ -30,8 +30,7 @@ const Content45001 = () => {
       </div>
       <p className="mt-3">
         <b>Manfaat Penerapan ISO 45001:2018 </b>
-        dan
-        <b>SMK3 PP 50 Tahun 2012 </b>
+        dan <b>SMK3 PP 50 Tahun 2012 </b>
         memberikan beberapa keuntungan bagi organisasi, diantaranya :
         <br />
         <br />
